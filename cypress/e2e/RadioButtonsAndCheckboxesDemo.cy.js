@@ -1,6 +1,6 @@
-describe ('Checking UI Elements', ()=> {
+describe ('Checking UI Elements', () => {
 
-    it ('Check Radio Buttons', ()=> {
+    it ('Check Radio Buttons', () => {
         // navigating to the URL
         cy.visit('https://itera-qa.azurewebsites.net/home/automation') 
 
@@ -13,7 +13,7 @@ describe ('Checking UI Elements', ()=> {
         cy.get('#male').should('not.be.checked')
     })
 
-    it ('Checking checkboxes', ()=> {
+    it ('Checking checkboxes', () => {
         // navigating to the URL
         cy.visit('https://itera-qa.azurewebsites.net/home/automation') 
         
